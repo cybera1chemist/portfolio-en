@@ -4,20 +4,20 @@ const ROOT = location.pathname.includes('/works/') ? '..' : '.';
 // 2. 导航的单一数据源
 const NAV_HTML = `
   <ul class="nav-menu">
-    <li><a href="{root}/index.html">首页</a></li>
+    <li><a href="{root}/index.html">Home</a></li>
 
     <li position="relative">
-        <a href="{root}/index.html#works">我的作品</a>
+        <a href="{root}/index.html#works">My Works</a>
         <ul class="dropdown">
-            <li><a href="{root}/works/work1.html">1：美美</a></li>
-            <li><a href="{root}/works/work2.html">2：随机井字棋</a></li>
-            <li><a href="{root}/works/work3.html">3：我也不知道是啥</a></li>
-            <li><a href="{root}/works/work4.html">4：我也不知道是啥</a></li>
-            <li><a href="{root}/works/work5.html">5：杀死一个炼金术师</a></li>
+            <li><a href="{root}/works/work1.html">1: Pretty Pretty</a></li>
+            <li><a href="{root}/works/work2.html">2: Random Tic-Tac-Toe</a></li>
+            <li><a href="{root}/works/work3.html">3: I don't know</a></li>
+            <li><a href="{root}/works/work4.html">4: I don't know</a></li>
+            <li><a href="{root}/works/work5.html">5: To Kill an Alchemist</a></li>
         </ul>
     </li>
 
-    <li><a href="{root}/thanks.html">致谢</a></li>
+    <li><a href="{root}/thanks.html">Acknowledgements</a></li>
 
   </ul>
 `;
